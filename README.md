@@ -83,9 +83,9 @@ User: "Update purchase order approval workflow in MM module"
 ┌─────────────────────────────┐
 │        Orchestrator         │  ← Assembles result, builds D3 graph
 │   AnalysisResult JSON       │    Streams logs via WebSocket
-└─────────────────────────────┘
-             │
-             ▼
+└─────────────┬───────────────┘
+              │
+              ▼
       Next.js Dashboard
   (Graph · Impact · Tests · ROI)
 ```
@@ -269,3 +269,15 @@ When deployed inside an enterprise, LegacyMind's `CodeArchaeologist` agent reads
 <div align="center">
 Built for enterprise SAP modernisation at hackathon speed
 </div>
+
+---
+
+## 🖼️ Gallery
+
+| Analysis View | Dependency Graph | Agent Swarm Monitor |
+|:---:|:---:|:---:|
+| <img src="https://cdn.dorahacks.io/static/files/19f2ed92df7fb0bff684a994a0796e93.png" width="300"/> | <img src="https://cdn.dorahacks.io/static/files/19f2ed9ef4c1bae036753e145d39a934.png" width="300"/> | <img src="https://cdn.dorahacks.io/static/files/19f2ed98559f774ec7d771d4ae7a88cb.png" width="300"/> |
+
+| Risk Scorecard | Codebase Explorer | ABAP Test Generator |
+|:---:|:---:|:---:|
+| <img src="https://cdn.dorahacks.io/static/files/19f2ed89173885677b7d5bf4b7fbd87a.png" width="300"/> | <img src="https://cdn.dorahacks.io/static/files/19f2ed8daae750a0be93fbf4ce481e9f.png" width="300"/> | <img src="https://cdn.dorahacks.io/static/files/19f2edd11659814cb70ae5846a5a01d0.png" width="300"/> |
