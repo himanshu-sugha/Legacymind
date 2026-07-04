@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+networkx>=3.3
+google-genai>=1.14.0
+groq>=0.25.0
+openai>=1.82.0
+python-dotenv>=1.1.0
+numpy>=2.0.0
+websockets>=14.0
+pydantic>=2.10.0
+scipy>=1.13.0
