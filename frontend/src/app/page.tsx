@@ -22,7 +22,7 @@ interface AgentStatus { name: string; status: string; progress: number; message:
 interface AnalysisResult { impact_report: ImpactReport; test_suite: TestSuite; graph_data: GraphData; agent_statuses: AgentStatus[]; pipeline_duration_ms: number; objects_parsed: number }
 interface LogEntry { timestamp: number; agent: string; message: string }
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const RISK_COLORS: Record<string,string> = { CRITICAL:"#ef4444", HIGH:"#f97316", MEDIUM:"#eab308", LOW:"#22c55e" };
 const MODULE_COLORS: Record<string,string> = { HR:"#3b82f6", SD:"#22c55e", MM:"#f97316", FI:"#a855f7" };
 
